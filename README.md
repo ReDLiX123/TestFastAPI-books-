@@ -18,7 +18,7 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone [ТУТ_БУДЕТ_ССЫЛКА]
+git clone https://github.com/ReDLiX123/TestFastAPI-books-
 cd test_books
 ```
 
