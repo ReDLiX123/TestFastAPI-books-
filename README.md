@@ -19,7 +19,7 @@
 
 ```bash
 git clone https://github.com/ReDLiX123/TestFastAPI-books-
-cd test_books
+cd TestFastAPI-books-
 ```
 
 2. **Создайте и активируйте виртуальное окружение:**

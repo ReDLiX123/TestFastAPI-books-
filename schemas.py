@@ -2,8 +2,8 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 
 class BookBase(BaseModel):
-    title: str = Field(min_length=0, max_length=50)
-    author: str = Field(min_length=0, max_length=25)
+    title: str = Field(min_length=1, max_length=50)
+    author: str = Field(min_length=1, max_length=25)
     year: int = Field(ge=0, le=datetime.now().year)
 
 
